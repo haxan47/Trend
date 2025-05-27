@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Online Clothing Retailer</title>
+    <style>
+        body {
+            font-family: timesnewroman;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        header {
+            background-color:dark blue;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            font-size: 40px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+        nav a {
+            color: white;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        nav a:hover {
+            background-color: darkred;
+        }
+        .section {
+            padding: 20px;
+            border: 1px solid #ccc; /* Border around each section */
+            margin-bottom: 20px; /* Space between sections */
+            text-align: center; /* Center align section content */
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        }
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border: 1px solid #ddd; /* Border around each product */
+            background-color: #fff; /* White background for products */    
+        }
+        .product img {
+            max-width: 100%;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        .product p {
+            margin: 5px 0;
+        }
+        .product .price {
+            color: green;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            clear: both;
+        }
+        .bottom-image {
+            width: 100%;
+            max-width: 100%;
+            margin-bottom: 20px; /* Adjust spacing between image and footer */
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 20px; /* Adjust spacing between video and footer */
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="D:\Esoft\Hasan Website\Website\Images\Logo.png" alt="Clothing Shop Logo" style="height: 150px;">
+        <h1>TrendVogue Clothing</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#new-arrivals">New Arrivals</a>
+        <a href="#promotions">Promotions</a>
+        <a href="#men">Men's</a>
+        <a href="#women">Women's</a>
+        <a href="#kids">Kids'</a>
+        <a href="#sportswear">Sportswear</a>
+    </nav>
+    <section id="home" class="section">
+        <h2>Home</h2>
+        <!-- Image covering full screen -->
+         <img src="D:\Esoft\Hasan Website\Website\Images\I1.png" alt="Home Image" class="bottom-image">
+        <p>Welcome to our TrendVogue clothing store. Explore our latest collections and exciting offers.</p>
+
+    <section id="new-arrivals" class="section">
+        <h2>New Arrivals</h2>
+         <!-- Image covering full screen -->
+         <img src="D:\Esoft\Hasan Website\Website\Images\I2.png"  alt="Home Image" class="bottom-image">         
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I3.jpg" alt="Men's New Jacket">
+            <h3>Mastering Leather Jacket outfit</h3>
+            <p>Stylish and warm jacket perfect for winter.</p>
+            <p class="price">$49.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I4.jpg" alt="Women's New Dress">
+            <h3>Stretchable Black outfit</h3>
+            <p>Elegant dress suitable for all occasions.</p>
+            <p class="price">$80</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I5.webp" alt="Women's Shoes">
+            <h3>Nike Sneakers </h3>
+            <p>Nike Sneakers Air Jordan 4 Retro Seafoam 7826 .</p>
+            <p class="price">$39.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I6.webp" alt="New Arrival ">
+            <h3>Short Sleeve V Neck Polka DOT Dress</h3>
+            <p>New Arrivals Lady Short Sleeve V Neck Polka DOT Dress Woman Summer Dresses Women Casual.</p>
+            <p class="price">$69.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I7.jpg" alt="New Arrival ">
+            <h3>Knot Tie Long Party Dress</h3>
+            <p>Knot Tie Long Party Dress - Maroon & Black.</p>
+            <p class="price">$79.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I8.webp" alt="New Arrival 5">
+            <h3>Striped Half Sleeve T-shirt</h3>
+            <p>Men's Short-SleevedTT-shirt New Trendy Loose Top Advanced Striped Half Sleeve T-shirt Summer Boys Clothes Men's Clothing.</p>
+            <p class="price">$105</p>
+            <p>Availability: In Stock</p>
+        </div>
+
+    </section>
+    <section id="promotions" class="section">
+        <h2>Promotions</h2>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I9.webp" alt="Promotion 1">
+            <h3>Promo</h3>
+            <p>Get Started with a 10 OFF Discount on Your First Order!.</p>
+            <p class="price"> 10% off </p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I10.webp" alt="Promotion 2">
+            <h3>Promo Winter Clothes For Men</h3>
+            <p>Buy one get one free.</p>
+            <p class="price">$294</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I11.webp" alt="Promotion 3">
+            <h3> Women's Promo Satchel Hand Bags </h3>
+            <p>DAVID JONES Women's Satchel Hand Bag.</p>
+            <p class="price">$39.99 <del>$49.99</del></p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I12.jpg" alt="Promotion 4">
+            <h3> sales-promotion </h3>
+            <p>sales promotion of Women's Training Sportswear Set.</p>
+            <p class="price">50% OFF </p>
+            <p>Availability: In Stock</p>
+        </div>
+
+    </section>
+    <section id="men" class="section">
+        <h2>Men's Clothing</h2>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I13.jpg" alt="Men's T-Shirt">
+            <h3>Men's T-Shirt</h3>
+            <p>Comfortable and casual t-shirt.</p>
+            <p class="price">$49.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I14.webp" alt="Men's Jeans Pants">
+            <h3>Men's Jeans Pants</h3>
+            <p>Fashion Men's Jeans Pants Stretch Dark Blue Skinny Jeans For Men Casual Slim Fit Denim Pants Korean Style Male Trousers Jeans.</p>
+            <p class="price">$59.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+         <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I15.webp" alt="Men's Hoodie ">
+            <h3>Hoodies For Men</h3>
+            <p>Men's Hoodie Long Sleeve Streetwear Casual Comfortable.</p>
+            <p class="price">$59.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I16.webp" alt="Men's Shoes">
+            <h3>Nike Men's Casual Shoe</h3>
+            <p>Nike Men's Casual Shoe .</p>
+            <p class="price">$69.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+    <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I35.jpg" alt="Men's Shirts">
+            <h3>IYI Printed T shirt And Trouser</h3>
+            <p>IYI Printed T shirt And Trouser New Design Track Suit Full sleeves T shirts Jogging Trousers Best Quality Top Tees For Men.</p>
+            <p class="price">$69.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+       
+          <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I17.jpg" alt="trouser pants">
+            <h3>trouser pants</h3>
+            <p>korean fashion slacks high quality trouser pants men above ankle trousers suit pants.</p>
+            <p class="price">$79.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+         <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I18.webp" alt="Men's Shirts">
+            <h3>Long-Sleeved Shirt</h3>
+            <p>Spring and Autumn New Korean Style Plaid Shirt Men's Youth Long-Sleeved Shirt Large Size All-Matching Men's Clothing Leisure Shirt Fashion.</p>
+            <p class="price">$69.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+
+    </section>
+    <section id="women" class="section">
+        <h2>Women's Clothing</h2>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I19.jpg" alt="Women's Clothing 1">
+            <h3> Casual Summer Dress for Women</h3>
+            <p>
+Summer Dress Sundress Mini Dress Neckline Sleeve Print Pleated Women's Dress.</p>
+            <p class="price">$49.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I20.jpg" alt="Women's Clothing ">
+            <h3>Modern textured pinstriped  pants</h3>
+            <p>Full length with relaxed fit, front pockets and pull-on styling; 30.5" inseam.</p>
+            <p class="price">$59.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I21.jpg" alt="Women's Clothing 3">
+            <h3>Sleeveless Ados design fit</h3>
+            <p>ASOS DESIGN boat neck with ruched sides maxi dress in denim Blue.</p>
+            <p class="price">$39.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I22.webp" alt="Women's Clothing 3">
+            <h3>Ladies Handbag Set</h3>
+            <p>New Fashion 3 Pieces Ladies Handbag Set.</p>
+            <p class="price">$39.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I23.jpg" alt="Women's Clothing ">
+            <h3>Designer Rainbow Silk Casual Wear Saree</h3>
+            <p>Latest Rainbow Pattern Silk Casual Wear Saree , Best Quality Assurance.</p>
+            <p class="price">$2950.00</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I24.jpg"alt="Women's dress">
+            <h3>Summer floral dress</h3>
+            <p>Chiffon overlay , striped summer dress with Roll-up sleeves .</p>
+            <p class="price">$200.00</p>
+            <p>Availability: In Stock</p>
+        </div>
+    </section>
+    <section id="kids" class="section">
+        <h2>Kids' Clothing</h2>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I25.webp" alt="Kids' Clothing">
+            <h3>Shirt & Trouser</h3>
+            <p>Casual Slim Fit Denim & Slim Fit Shirt.</p>
+            <p class="price">$29.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I26.jpg" alt="Kids' Clothing ">
+            <h3>Kids' Shorts</h3>
+            <p>Comfortable shorts for playtime.</p>
+            <p class="price">$39.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I27.jpeg"alt="Kids' Clothing">
+            <h3>Party Wear</h3>
+            <p>fish print girls open arm tank dress.</p>
+            <p class="price">$24.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I28.webp" alt="Kids' Clothing">
+            <h3>Summer Casual Wear</h3>
+            <p>Fun and colorful summer dresses for Boys.</p>
+            <p class="price">$49.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I29.jpg" alt="Kids' Clothing">
+            <h3>Kids Frock</h3>
+            <p>Short description of the product.</p>
+            <p class="price">$34.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+    </section>
+    <section id="sportswear" class="section">
+        <h2>Sportswear</h2>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I30.jpeg" alt="Sportswear ">
+            <h3>Men's Sports Shorts</h3>
+            <p>European Size Men's Beach Pants Quick-Drying Three-Point Casual Shorts.</p>
+            <p class="price">$59.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I31.jpeg" alt="Sports ">
+            <h3>Training Suits</h3>
+            <p>Sportswear Men Sport Shirt Pants Suit Sport Exercise Fitness Running Training Suits.</p>
+            <p class="price">$69.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I32.webp" alt="Sportswear 3">
+            <h3>Ladies Sports Wear</h3>
+            <p>The best gym and sports leggings we've tested Saga Exceptional.</p>
+            <p class="price">$49.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I33.jpg" alt="Sportswear ">
+            <h3>Women's Gym Clothes & Workout Clothes</h3>
+            <p>The Ark Oversized Vest. The perfect vest for covering up and staying comfy in the gym. Style it loose or tie it up to suit your look!.</p>
+            <p class="price">$79.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+        <div class="product">
+            <img src="D:\Esoft\Hasan Website\Website\Images\I34.jpg"alt="Sportswear 5">
+            <h3>Men's Training Sportswear Set</h3>
+            <p>Gym Fitness Compression Sport Suit Jogging Tight trасksuits Quick Drys Sports Wear Fit Clothes.</p>
+            <p class="price">$89.99</p>
+            <p>Availability: In Stock</p>
+        </div>
+     </section>
+    <section id="video" class="section">
+        <h2>Video Footage</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="D:\Esoft\Hasan Website\Website\Video.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Clothing Retailer. All rights reserved.</p>
+        <p> Done By - AHAMED HASSAN </p>
+    </footer>
+</body>
+</html>
